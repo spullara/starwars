@@ -8,6 +8,7 @@ import jakarta.inject.Singleton
 @Singleton
 class PlanetsFilmsRepository {
     private val planetFilmRelations = mutableMapOf(
+        // FIXME: these should be mapping planets not characters to the films
         "1" to mutableListOf("1", "2", "3"), // Luke in all three films
         "2" to mutableListOf("1", "2", "3"), // Leia in all three films
         "3" to mutableListOf("1", "2", "3"), // Han in all three films
